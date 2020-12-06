@@ -51,3 +51,5 @@ use App\Http\Controllers\malikController;
 Route::get("/malik/satu", [malikController::class, "satu"]);
 Route::get("/malik/dua", [malikController::class, "dua"]);
 Route::get("/malik/tiga", [malikController::class, "tiga"]);
+
+Route::get("/test-tema", [farisController::class, "index"]);

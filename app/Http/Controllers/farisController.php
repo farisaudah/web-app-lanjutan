@@ -18,4 +18,9 @@ class farisController extends Controller
     {
         return view("faris-3");
     }
+
+    public function index()
+    {
+        return view("test-tema"); // view dengan template
+    }
 }
